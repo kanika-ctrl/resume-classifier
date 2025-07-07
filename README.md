@@ -4,34 +4,7 @@ A simple machine learning project to classify resumes into different job categor
 
 ## Project Structure
 
-```
-resume_classifier_project/
-│
-├── 📁 data/
-│   ├── raw_resumes/                    # Folder for raw resume files
-│   └── Resume.csv                      # Main dataset
-│
-├── 📁 data_cleaning/
-│   └── cleaner.py                      # Text cleaning functions
-│
-├── 📁 feature_extraction/
-│   └── vectorizer.py                   # TF-IDF vectorization
-│
-├── 📁 resume_parser/
-│   └── parser.py                       # PDF/DOCX/TXT parsing
-│
-├── 📁 streamlit_app/
-│   └── app.py                          # Web interface
-│
-├── 📁 saved_models/
-│   ├── resume_classifier.pkl           # Trained model
-│   └── vectorizer.pkl                  # Fitted vectorizer
-│
-├── model.ipynb                         # Training notebook
-├── requirements.txt                    # Dependencies
-└── README.md                           # This file
-```
-
+ 
 ## Setup
 
 1. **Install dependencies:**
